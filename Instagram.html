@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        .Parent{
+            height: 150px;
+            width: 150px;
+            background: radial-gradient(circle at 30% 107%,#fdf258 8%,#fdf258 12%,#fd5978 32%,#285ade 92%);
+            border-radius: 35px;
+            display: grid;
+            place-items: center;
+        }
+        .I{
+            height: 120px;
+            width: 120px;
+            border: 10px solid white;
+            border-radius: 32px;
+            display: grid;
+            place-items: center;
+            position: relative;
+        }
+        .I::before{
+            content: '';
+            width: 45px;
+            height: 45px;
+            border: 10px solid white;
+            border-radius: 50%;
+            background-color: transparent;
+            position: absolute;
+
+        }
+        .I::after{
+            content: '';
+            width: 10px;
+            height: 10px;
+            border: 2px solid white;
+            border-radius: 50%;
+            background: white;
+            position: absolute;
+            top: 8px;
+            right: 10px;
+        }
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="Parent">
+        <div class="I">
+        </div>
+    </div>
+</body>
+</html>

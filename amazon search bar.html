@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+            .parent{
+                height: 30%;
+                width: 90%;
+                display: flex;
+                justify-items: center;
+                align-items: center;
+
+            }
+            .selection{
+                height: 30%;
+                width: 60%;
+                background-color: white;
+                border:8px solid black ;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .all{
+                height: 100%;
+                width: 20%;
+                background: none;
+                border: 1px none gainsboro;
+
+            }
+            select{
+                height: 100%;
+                width: 100%;
+                background: rgba(220, 220, 220, 0.288);
+
+            }
+            .search{
+                height: 100%;
+                width: 100%;
+                border: 1px none gainsboro;
+            }
+            input{
+                height: 100%;
+                width: 100%;
+                border: 1px none gainsboro;
+                padding-left: 10px;
+            }
+            button{
+                height:100%;
+                width: 100%;
+                background: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="selection">
+                <div class="all">
+                    <select>
+                        <option>All</option>
+                        <option>mobiles & accessories</option>
+                        <option>Electronics</option>
+                        <option>fashion</option>
+                        <option>home deccor</option>
+                        <option>kitchen appliances</option>
+                        <option>grocery</option>
+
+                    </select>
+                </div>
+                <div class="search">
+                    <input placeholder="Search by amazon">
+                </div>
+                <div class="click">
+                    <button>Search</button>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>

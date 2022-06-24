@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>Telugu News</h1>      
+          <p>@ Vaartha samacharam 24/7</p>
+        </div>
+    </div>
+    <div class="container">
+        <p>This is some text.</p>      
+        <p>This is another text.</p>      
+    </div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="drug hulchal.PNG" alt="drug" width="1500" height="500">
+            <div class="carousel-caption">
+              <h3>Drug hulchal</h3>
+              <p>nuisence creation in Hyderabad</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="home loan ad.PNG" alt="Loan" width="1500" height="500">
+            <div class="carousel-caption">
+              <h3>Need a new house</h3>
+              <p>Get a loan within few minutes</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="corona.PNG" alt="corona cases" width="1500" height="500">
+            <div class="carousel-caption">
+              <h3>Increased new cases</h3>
+              <p>corona updates in India</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="vp movie.PNG" alt="movies" width="1500" height="500">
+            <div class="carousel-caption">
+              <h3>movie updates</h3>
+              <p>movie in OTT release dates</p>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <form class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-success" type="submit">Log in</button>
+        </form>
+        <div class="container">
+            <h2>Modal Example</h2>
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+              login with mail
+            </button>
+          
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Sign in</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <div class="container">
+                        <h2>Vaartha form</h2>
+                        <form action="/action_page.php">
+                          <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                          </div>
+                          <div class="form-group form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                            </label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                  </div>
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+          </div>
+    </nav>
+    <br>
+    <div class="container">
+        <h2>Contextual Classes</h2>
+        <p>Contextual classes can be used to color the table, table rows or table cells. The classes that can be used are: .table-primary, .table-success, .table-info, .table-warning, .table-danger, .table-active, .table-secondary, .table-light and .table-dark:</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Default</td>
+              <td>Defaultson</td>
+              <td>def@somemail.com</td>
+            </tr>      
+            <tr class="table-primary">
+              <td>Primary</td>
+              <td>Joe</td>
+              <td>joe@example.com</td>
+            </tr>
+            <tr class="table-success">
+              <td>Success</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr class="table-danger">
+              <td>Danger</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr class="table-info">
+              <td>Info</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+            <tr class="table-warning">
+              <td>Warning</td>
+              <td>Refs</td>
+              <td>bo@example.com</td>
+            </tr>
+            <tr class="table-active">
+              <td>Active</td>
+              <td>Activeson</td>
+              <td>act@example.com</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Secondary</td>
+              <td>Secondson</td>
+              <td>sec@example.com</td>
+            </tr>
+            <tr class="table-light">
+              <td>Light</td>
+              <td>Angie</td>
+              <td>angie@example.com</td>
+            </tr>
+            <tr class="table-dark text-dark">
+              <td>Dark</td>
+              <td>Bo</td>
+              <td>bo@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h2>Inline form</h2>
+        <p>Make the viewport larger than 576px wide to see that all of the form elements are inline and left-aligned. On small screens, the form groups will stack horizontally.</p>
+        <form class="form-inline" action="/action_page.php">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
